@@ -1,0 +1,10 @@
+[Unit]
+Description=uptime daemon
+
+[Service]
+ExecStart=/usr/local/bin/uptimedaemon.sh
+Type=exec
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -23,7 +23,7 @@ while true; do
     fi
 
     if [[ "$cloudflare_success" = false ]] && [[ "$google_success" = false ]]; then
-        echo "$(date): Both pings timed out -- internet down?"
+        echo "Both pings timed out -- internet down?"
     fi
 
     sleep 15
