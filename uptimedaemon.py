@@ -7,9 +7,9 @@ import time
 
 # declare some variables
 ip_list = ["8.8.8.8", "1.1.1.1"]
-sleeptime = 1          # seconds
-timeout = 1            # seconds
-outage_sleeptime = 1    # seconds
+sleeptime = 10          # seconds
+timeout = 30            # seconds
+outage_sleeptime = 5    # seconds
 
 
 # quick function definition
