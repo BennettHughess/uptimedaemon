@@ -2,7 +2,7 @@
 Description=uptime daemon
 
 [Service]
-ExecStart=/usr/local/bin/uptimedaemon.sh
+ExecStart=/usr/local/bin/uptimedaemon.py
 Type=exec
 Restart=always
 
