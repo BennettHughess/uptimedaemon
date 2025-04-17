@@ -4,6 +4,7 @@
 google_success=false
 cloudflare_success=false
 timeout=30 #timeout after 30 seconds
+sleeptime=10
 
 # constantly loop for all time
 while true; do
@@ -26,5 +27,5 @@ while true; do
         echo "Both pings timed out -- internet down?"
     fi
 
-    sleep 15
+    sleep $sleeptime
 done
