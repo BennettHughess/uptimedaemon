@@ -69,8 +69,8 @@ while True:
         outage_end_time = time.time()
         outage_duration = outage_end_time - outage_start_time
         subprocess.run(
-            "echo Internet was out for \(min:sec\): "
-            f"{outage_duration / 60:.0f}:{outage_duration % 60:.0f}",
+            "echo Internet was out for: "
+            f"{outage_duration / 60:.0f}m:{outage_duration % 60:.0f}s",
             shell=True
         )
 
